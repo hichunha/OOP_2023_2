@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="269.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moodle.TestList.TestListController">
+   <children>
+      <Line endX="-101.5" endY="-148.0" layoutX="150.0" layoutY="531.0" startX="-100.0" startY="68.0" stroke="#cfc4c494" AnchorPane.leftAnchor="48.5" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="30.0" />
+      <Line endX="571.5" endY="11.5" layoutX="179.0" layoutY="371.0" startX="-130.0" startY="11.5" stroke="#cfc4c494" AnchorPane.leftAnchor="48.5" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="30.0" />
+      <Line endX="-100.0" endY="-130.0" layoutX="851.0" layoutY="517.0" startX="-100.0" startY="83.0" stroke="#cfc4c494" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="30.0" />
+      <Button fx:id="testButton" layoutX="63.0" layoutY="50.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="138.0" text="Thi thử KTLT">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/341145559_911981290085334_6077050469514509992_n.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="63.0" layoutY="106.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="138.0" text="Thi thử KTLT 2">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/341145559_911981290085334_6077050469514509992_n.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

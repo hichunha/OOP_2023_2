@@ -12,9 +12,9 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("/views/GUI1_1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/views/main.fxml"));
         Scene scene1 = new Scene(root, 800, 600);
-        stage.setTitle("MAIN !");
+        stage.setTitle("Multi choice");
         stage.setScene(scene1);
         stage.centerOnScreen();
         stage.show();

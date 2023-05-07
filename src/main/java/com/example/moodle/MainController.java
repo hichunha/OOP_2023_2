@@ -1,20 +1,24 @@
 package com.example.moodle;
 
-import java.net.URL;
+import java.util.ArrayList;
+
+import com.example.moodle.state.AppStateManager;
+import com.example.moodle.state.slices.SliceNames;
+import com.example.moodle.state.slices.UISliceState;
 
 import javafx.fxml.FXML;
-import javafx.scene.image.Image;
-import javafx.scene.paint.ImagePattern;
-import javafx.scene.shape.Circle;
 
 public class MainController {
-  @FXML private Circle avatarPlaceholder;
+  private AppStateManager<UISliceState> uiStateManager = AppStateManager.getSlice(SliceNames.UI, new UISliceState());
 
   @FXML
-  public void initialize() {
-    URL imgSrc =  getClass().getResource("/icons/avatar-trang-ngau.jpg");
-    Image image = new Image(imgSrc.toString());
-    avatarPlaceholder.setFill (new ImagePattern(image));
+  private void initialize() {
+    uiStateManager.update((UISliceState state) -> {
+      state.headerSettingBtnsHidden = false;
+      state.breadcrumbs = new ArrayList<>();
+      state.breadcrumbs.add(new UISliceState.Breadcrumb("Home", null));
+      state.breadcrumbs.add(new UISliceState.Breadcrumb("My Tests", null));
+      return state;
+    });
   }
-  
 }
