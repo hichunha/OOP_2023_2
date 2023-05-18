@@ -44,7 +44,9 @@ public class AppStateManager<SliceState> {
       lock.release();
       // notify subscribers here
       for(AppStateSubscriber<Object> subscriber: subscriberMap.values()) {
-        subscriber.onChange(appState);
+        if(subscriber != null) {
+          subscriber.onChange(appState);
+        }
       }
     } catch (InterruptedException e) {
         // exception handling code

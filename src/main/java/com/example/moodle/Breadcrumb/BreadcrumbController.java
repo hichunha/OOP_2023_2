@@ -1,4 +1,4 @@
-package com.example.moodle.UI;
+package com.example.moodle.Breadcrumb;
 
 import com.example.moodle.state.AppStateManager;
 import com.example.moodle.state.slices.SliceNames;
@@ -17,6 +17,7 @@ public class BreadcrumbController {
 
   @FXML
   private void initialize() {
+    container.setHgap(5);
     uiStateManager.subscribe(getClass().getName(), (UISliceState state) -> {
       this.handleBreadcrumbChange(state);
     });

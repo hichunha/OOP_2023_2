@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moodle.TestPreview.TestPreviewController">
    <children>
@@ -14,6 +19,35 @@
             <fx:include source="components/header.fxml" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="testPreviewPane" layoutX="-2.0" layoutY="216.0" prefHeight="584.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="216.0" />
+      <AnchorPane fx:id="testPreviewPane" layoutY="216.0" prefHeight="584.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="216.0">
+         <children>
+            <Text layoutX="53.0" layoutY="178.0" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Summary of your previous attempts" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="158.6640625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TableView layoutX="53.0" layoutY="200.0" prefHeight="82.0" prefWidth="662.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="200.0">
+              <columns>
+                <TableColumn prefWidth="150.0" />
+                <TableColumn editable="false" prefWidth="160.0" sortable="false" text="Attempt" />
+                  <TableColumn editable="false" prefWidth="351.0" sortable="false" text="State" />
+              </columns>
+            </TableView>
+            <Text layoutX="53.0" layoutY="69.0" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Test title" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="45.796875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="560.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time limit: 1 minute.&#10;Grading method: Last attempt" textAlignment="CENTER" AnchorPane.rightAnchor="65.1982421875" AnchorPane.topAnchor="80.46484375">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="previewStartBtn" layoutX="540.0" layoutY="305.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-color: #6699FF;" text="PREVIEW QUIZ NOW" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="305.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
