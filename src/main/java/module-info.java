@@ -5,6 +5,7 @@ module com.example.moodle {
 
     requires org.controlsfx.controls;
     requires java.sql;
+    requires transitive com.jfoenix;
 
     opens com.example.moodle to javafx.fxml;
     exports com.example.moodle;
@@ -21,6 +22,6 @@ module com.example.moodle {
     opens com.example.moodle.Header to javafx.fxml;
     exports com.example.moodle.Header;
 
-    opens com.example.moodle.UI to javafx.fxml;
-    exports com.example.moodle.UI;
+    opens com.example.moodle.Breadcrumb to javafx.fxml;
+    exports com.example.moodle.Breadcrumb;
 }
