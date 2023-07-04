@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GUI3_3_Controller">
+   <children>
+      <Button layoutX="92.0" layoutY="64.0" mnemonicParsing="false" style="-fx-background-color: balid;" text="Add category" textFill="#ea0707" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Label layoutX="64.0" layoutY="159.0" text="Parent category" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="272.0" text="Name" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="240.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="400.0" text="Category info" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="550.0" text="ID number" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="550.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="381.0" layoutY="165.0" prefHeight="46.0" prefWidth="314.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="165.0" />
+      <ImageView fitHeight="26.0" fitWidth="17.0" layoutX="343.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="610.0">
+         <image>
+            <Image url="@../icons/Spørgsmål.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="380.0" layoutY="284.0" prefHeight="52.0" prefWidth="430.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="240.0" />
+      <ImageView fitHeight="35.0" fitWidth="25.0" layoutX="343.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="605.0" AnchorPane.topAnchor="240.0">
+         <image>
+            <Image url="@../icons/exclamation-mark_2757.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="380.0" layoutY="404.0" prefHeight="194.0" prefWidth="574.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="320.0" />
+      <TextField layoutX="650.0" layoutY="543.0" prefHeight="52.0" prefWidth="144.0" AnchorPane.topAnchor="550.0" />
+      <ImageView fitHeight="26.0" fitWidth="17.0" layoutX="614.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="610.0">
+         <image>
+            <Image url="@../icons/Spørgsmål.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="650.0" layoutY="648.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="210.0" style="-fx-background-color: Red;" text="ADD CATEGORY" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="615.0" layoutY="717.0" text="There are required fields in this form marked ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Line endX="1077.800048828125" fill="#d1c1c1" layoutX="167.0" layoutY="621.0" startX="-100.0" stroke="#e7dcdc" />
+      <ImageView fitHeight="14.0" fitWidth="17.0" layoutX="894.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/exclamation-mark_2757.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

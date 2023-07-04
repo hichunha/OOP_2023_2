@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2600.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GUI3_2_3MoreChoices_Controller">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2600.0" prefWidth="960.0">
+         <children>
+            <AnchorPane layoutX="328.0" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #6699FF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <AnchorPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+               <children>
+                  <AnchorPane prefHeight="145.0" prefWidth="900.0" style="-fx-border-color: #ece4e4;" styleClass="anchorpane1" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="74.0" layoutY="10.0" maxHeight="100.0" maxWidth="100.0" prefHeight="63.0" prefWidth="53.0" text="IT" textFill="#f41313" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="5.0">
+                           <font>
+                              <Font name="Times New Roman" size="46.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutX="25.0" layoutY="61.0" prefHeight="41.0" prefWidth="760.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="60.0">
+                           <children>
+                              <Button maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="91.0" style="-fx-background-color: calid;" text="Home" textFill="#b40505">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Label maxHeight="100.0" maxWidth="100.0" prefHeight="62.0" prefWidth="26.0" text="/">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Button maxHeight="100.0" maxWidth="158.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="109.0" style="-fx-background-color: calid;" text="My courses">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Label maxHeight="100.0" maxWidth="100.0" prefHeight="76.0" prefWidth="23.0" text="/">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Button graphicTextGap="10.0" maxHeight="100.0" maxWidth="158.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: calid;" text="THI CUỐI KỲ" textFill="#b90808">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Label maxHeight="100.0" maxWidth="100.0" prefHeight="62.0" prefWidth="26.0" text="/">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Button graphicTextGap="10.0" maxHeight="100.0" maxWidth="158.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: calid;" text="Question bank" textFill="#b90808">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Label maxHeight="100.0" maxWidth="100.0" prefHeight="62.0" prefWidth="26.0" text="/">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Button graphicTextGap="10.0" maxHeight="100.0" maxWidth="158.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="115.0" style="-fx-background-color: calid;" text="Questions" textFill="#b90808">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Label maxHeight="100.0" maxWidth="100.0" prefHeight="62.0" prefWidth="26.0" text="/">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Label>
+                              <Button graphicTextGap="10.0" maxHeight="100.0" maxWidth="278.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="246.0" style="-fx-background-color: calid;" text="Editing a Multiple choice question">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="870.0" prefWidth="200.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="210.0">
+               <children>
+                  <AnchorPane prefHeight="669.0" prefWidth="621.0" style="-fx-border-color: #ece4e4;" styleClass="anchorpane1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
+                     <children>
+                        <Text fill="#cc0000" layoutX="91.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adding a Multiple choice question" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="44.0" layoutY="110.0" mnemonicParsing="false" style="-fx-background-color: balid;" text="General" textFill="#ac0606" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0">
+                           <graphic>
+                              <ImageView fitHeight="21.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/1.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="93.0" layoutY="191.0" text="Category" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="190.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="93.0" layoutY="259.0" text="Question name" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="260.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="93.0" layoutY="321.0" text="Question text" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="320.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="83.0" layoutY="593.0" text="Default mark" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="590.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ComboBox layoutX="303.0" layoutY="188.0" prefHeight="26.0" prefWidth="250.0" promptText="Sinh Học kỳ 2 L7(67)" style="-fx-background-color: balid; -fx-border-color: gray;" AnchorPane.leftAnchor="310.0" AnchorPane.topAnchor="190.0" />
+                        <TextField fx:id="TextFiledName" layoutX="312.0" layoutY="263.0" onAction="#QuestionName" prefHeight="26.0" prefWidth="400.0" AnchorPane.leftAnchor="311.0" AnchorPane.topAnchor="262.0" />
+                        <TextField fx:id="TextFiledMark" layoutX="312.0" layoutY="592.0" onAction="#DefaultMark" prefHeight="26.0" prefWidth="100.0" AnchorPane.leftAnchor="311.0" AnchorPane.topAnchor="591.0" />
+                        <ImageView fx:id="Check_QuestionName" fitHeight="18.0" fitWidth="17.0" layoutX="283.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/exclamation-mark_2757.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="Check_DefaultMark" fitHeight="18.0" fitWidth="17.0" layoutX="283.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/exclamation-mark_2757.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="Check_QuestionText" fitHeight="18.0" fitWidth="17.0" layoutX="283.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/exclamation-mark_2757.png" />
+                           </image>
+                        </ImageView>
+                        <AnchorPane layoutX="312.0" layoutY="652.0" prefHeight="213.0" prefWidth="558.0" style="-fx-background-color: #e7e3e3;" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="651.0">
+                           <children>
+                              <Label layoutX="29.0" layoutY="53.0" text="Choice 1" AnchorPane.leftAnchor="30.0" />
+                              <Label layoutX="29.0" layoutY="98.0" text="Grade" AnchorPane.leftAnchor="30.0" />
+                              <TextField layoutX="126.0" layoutY="49.0" />
+                              <Button fx:id="GradeButton1" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onAction="#Grade1" prefHeight="26.0" prefWidth="99.0" text="None" />
+                              <ScrollPane fx:id="scrollPane1" fitToWidth="true" layoutX="126.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="100.0" visible="false">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="925.0" prefWidth="100.0">
+                                       <children>
+                                          <VBox fx:id="buttonList1" layoutY="2.0" prefHeight="960.0" prefWidth="66.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="None" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="100%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="90%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="83.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="80%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-80%" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                        <TextArea fx:id="TextAreaText" layoutX="312.0" layoutY="322.0" onKeyTyped="#QuestionText" prefHeight="250.0" prefWidth="533.0" AnchorPane.leftAnchor="311.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="321.0" />
+                        <AnchorPane layoutX="322.0" layoutY="662.0" prefHeight="213.0" prefWidth="558.0" style="-fx-background-color: #e7e3e3;" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="950.0">
+                           <children>
+                              <Label layoutX="29.0" layoutY="53.0" text="Choice 2" AnchorPane.leftAnchor="30.0" />
+                              <Label layoutX="29.0" layoutY="98.0" text="Grade" AnchorPane.leftAnchor="30.0" />
+                              <TextField layoutX="126.0" layoutY="49.0" />
+                              <Button fx:id="GradeButton2" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onAction="#Grade2" prefHeight="26.0" prefWidth="99.0" text="None" />
+                              <ScrollPane fx:id="scrollPane2" fitToWidth="true" layoutX="126.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="100.0" visible="false">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="925.0" prefWidth="100.0">
+                                       <children>
+                                          <VBox fx:id="buttonList2" layoutY="2.0" prefHeight="960.0" prefWidth="66.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="None" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="100%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="90%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="83.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="80%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-80%" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                        <Button layoutX="-41.0" layoutY="1019.0" mnemonicParsing="false" style="-fx-background-color: #6699FF;" text="SAVE CHANGES AND CONTINUE EDDITING" textFill="WHITE" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="2225.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="5.0" layoutY="1135.0" mnemonicParsing="false" onAction="#SaveChanges2" style="-fx-background-color: red;" text="SAVE CHANGES" textFill="WHITE" AnchorPane.leftAnchor="290.0" AnchorPane.topAnchor="2275.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="19.0" layoutY="1074.0" mnemonicParsing="false" onAction="#Cancel2" style="-fx-background-color: #6699FF;" text="CANCEL" textFill="WHITE" AnchorPane.leftAnchor="450.0" AnchorPane.topAnchor="2275.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <AnchorPane layoutX="273.0" layoutY="1267.0" prefHeight="213.0" prefWidth="558.0" style="-fx-background-color: #e7e3e3;" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="1250.0">
+                           <children>
+                              <Label layoutX="29.0" layoutY="53.0" text="Choice 3" AnchorPane.leftAnchor="30.0" />
+                              <Label layoutX="29.0" layoutY="98.0" text="Grade" AnchorPane.leftAnchor="30.0" />
+                              <TextField layoutX="126.0" layoutY="49.0" />
+                              <Button fx:id="GradeButton3" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onAction="#Grade3" prefHeight="26.0" prefWidth="99.0" text="None" />
+                              <ScrollPane fx:id="scrollPane3" fitToWidth="true" layoutX="126.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="100.0" visible="false">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="925.0" prefWidth="100.0">
+                                       <children>
+                                          <VBox fx:id="buttonList3" layoutY="2.0" prefHeight="960.0" prefWidth="66.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="None" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="100%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="90%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="83.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="80%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-80%" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="108.0" layoutY="1562.0" prefHeight="213.0" prefWidth="558.0" style="-fx-background-color: #e7e3e3;" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="1550.0">
+                           <children>
+                              <Label layoutX="29.0" layoutY="53.0" text="Choice 4" AnchorPane.leftAnchor="30.0" />
+                              <Label layoutX="29.0" layoutY="98.0" text="Grade" AnchorPane.leftAnchor="30.0" />
+                              <TextField layoutX="126.0" layoutY="49.0" />
+                              <Button fx:id="GradeButton4" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onAction="#Grade4" prefHeight="26.0" prefWidth="99.0" text="None" />
+                              <ScrollPane fx:id="scrollPane4" fitToWidth="true" layoutX="126.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="100.0" visible="false">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="925.0" prefWidth="100.0">
+                                       <children>
+                                          <VBox fx:id="buttonList4" layoutY="2.0" prefHeight="960.0" prefWidth="66.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="None" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="100%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="90%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="83.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="80%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-80%" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="187.0" layoutY="1912.0" prefHeight="213.0" prefWidth="558.0" style="-fx-background-color: #e7e3e3;" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="1850.0">
+                           <children>
+                              <Label layoutX="29.0" layoutY="53.0" text="Choice 5" AnchorPane.leftAnchor="30.0" />
+                              <Label layoutX="29.0" layoutY="98.0" text="Grade" AnchorPane.leftAnchor="30.0" />
+                              <TextField layoutX="126.0" layoutY="49.0" />
+                              <Button fx:id="GradeButton5" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onAction="#Grade5" prefHeight="26.0" prefWidth="99.0" text="None" />
+                              <ScrollPane fx:id="scrollPane5" fitToWidth="true" layoutX="126.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="100.0" visible="false">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="925.0" prefWidth="100.0">
+                                       <children>
+                                          <VBox fx:id="buttonList5" layoutY="2.0" prefHeight="960.0" prefWidth="66.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="None" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="100%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="90%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="83.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="80%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-10%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-11.11111%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-12.5%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-14.28571%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-16.66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-20%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-25%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-30%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-33.33333%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-40%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-50%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-60%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-66,66667%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-75%" />
+                                                <Button alignment="TOP_LEFT" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: balid;" text="-80%" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
